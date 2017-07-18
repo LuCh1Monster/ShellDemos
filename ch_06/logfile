@@ -1,0 +1,45 @@
+logfile: 2017年 07月 15日 星期六 15:35:14 CST
+
+Output of "ls-al" command.
+
+total 116
+drwxrwxr-x  2 hadoop hadoop 4096  7月 15 15:35 .
+drwxrwxr-x 12 hadoop hadoop 4096  7月 14 15:23 ..
+-rw-rw-r--  1 hadoop hadoop  110  7月 15 11:08 demo06_01.sh
+-rw-rw-r--  1 hadoop hadoop  130  7月 15 11:10 demo06_02.sh
+-rw-rw-r--  1 hadoop hadoop  236  7月 15 11:14 demo06_03.sh
+-rw-rw-r--  1 hadoop hadoop  313  7月 15 11:17 demo06_04.sh
+-rw-rw-r--  1 hadoop hadoop  210  7月 15 11:31 demo06_05.sh
+-rw-rw-r--  1 hadoop hadoop  236  7月 15 11:36 demo06_06.sh
+-rw-rw-r--  1 hadoop hadoop  141  7月 15 12:58 demo06_07.sh
+-rw-rw-r--  1 hadoop hadoop  262  7月 15 13:01 demo06_08.sh
+-rw-rw-r--  1 hadoop hadoop  265  7月 15 13:05 demo06_09.sh
+-rw-rw-r--  1 hadoop hadoop  225  7月 15 13:20 demo06_10.sh
+-rw-rw-r--  1 hadoop hadoop  236  7月 15 13:30 demo06_11.sh
+-rw-rw-r--  1 hadoop hadoop  281  7月 15 13:33 demo06_12.sh
+-rw-rw-r--  1 hadoop hadoop  149  7月 15 13:36 demo06_13.sh
+-rw-rw-r--  1 hadoop hadoop 1212  7月 15 13:51 demo06_14.sh
+-rw-rw-r--  1 hadoop hadoop  138  7月 15 14:44 demo06_15.sh
+-rw-rw-r--  1 hadoop hadoop  239  7月 15 14:47 demo06_16.sh
+-rw-rw-r--  1 hadoop hadoop  263  7月 15 14:57 demo06_17.sh
+-rw-rw-r--  1 hadoop hadoop  253  7月 15 15:02 demo06_18.sh
+-rw-rw-r--  1 hadoop hadoop   53  7月 15 15:12 demo06_19.sh
+-rw-rw-r--  1 hadoop hadoop  395  7月 15 15:18 demo06_20.sh
+-rw-rw-r--  1 hadoop hadoop  192  7月 15 15:24 demo06_21.sh
+-rw-rw-r--  1 hadoop hadoop  180  7月 15 15:27 demo06_22.sh
+-rw-rw-r--  1 hadoop hadoop  261  7月 15 15:35 demo06_23.sh
+-rw-rw-r--  1 hadoop hadoop   81  7月 15 15:35 logfile
+-rw-rw-r--  1 hadoop hadoop  108  7月 15 15:24 n.file
+-rw-rw-r--  1 hadoop hadoop 2085  7月 15 14:57 passwd
+-rw-rw-r--  1 hadoop hadoop   65  7月 15 15:11 test_18
+
+Output of "df -h" command.
+
+Filesystem      Size  Used Avail Use% Mounted on
+udev            1.9G  4.0K  1.9G   1% /dev
+tmpfs           382M  1.1M  381M   1% /run
+/dev/sda1       455G   32G  401G   8% /
+none            4.0K     0  4.0K   0% /sys/fs/cgroup
+none            5.0M     0  5.0M   0% /run/lock
+none            1.9G   49M  1.9G   3% /run/shm
+none            100M   36K  100M   1% /run/user

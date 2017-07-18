@@ -1,0 +1,8 @@
+{
+count[ length($1) ]++
+}
+END {
+
+for(j=1;j<8;j++)
+    print "There are " count[j] " user accounts with " j " letter names."
+}

@@ -1,0 +1,3 @@
+string
+root:x:,:0:root:/root:/bin/sh
+root,x,0,0,root,/root,/bin/sh

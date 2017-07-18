@@ -1,0 +1,18 @@
+#!/bin/bash
+
+FILE_NUMBER()
+{
+    T_FILE=$1
+    if [ $# -ne 1 ]
+    then
+        echo "I need only one filename."
+        return 1
+    fi
+
+    loop=1
+    while read line
+    do
+        echo "$loop: $line"
+        loop=`expr $loop + 1`
+    done < $T_FILE
+}

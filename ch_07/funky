@@ -1,0 +1,20 @@
+#!/bin/bash
+
+FUNKY()
+{
+    if [ -z $1 ]
+    then
+        echo "Parameter one is zero length."
+    else
+        echo "Parameter one is \"#one\"."
+    fi
+
+    variable=${1-$DEFAULT}
+    echo "variable=$variable"
+
+    if [ $2 ]
+    then
+        echo "Parameter two is \"#two\"."
+    fi
+    return 0
+}
